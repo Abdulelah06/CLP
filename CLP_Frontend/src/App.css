@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.black_btn,.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+}
+.black_btn:hover,.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}

@@ -1,0 +1,62 @@
+.manage-categories-background {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .manage-categories-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .manage-categories-item {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 15px 30px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px);
+    text-align: center;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .manage-categories-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .manage-categories-header {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .manage-categories-button {
+    margin-bottom: 20px;
+  }
+  
+  .manage-categories-spinner {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  

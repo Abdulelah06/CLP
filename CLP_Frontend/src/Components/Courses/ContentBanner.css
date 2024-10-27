@@ -1,0 +1,10 @@
+.content-banner-pen-icon {
+    transition: transform 0.3s ease;
+}
+
+.content-banner-pen-icon.rotated {
+    transform: rotate(360deg);
+}
+.content-banner-pen-icon.rotating {
+    transform: rotate(270deg);
+}
